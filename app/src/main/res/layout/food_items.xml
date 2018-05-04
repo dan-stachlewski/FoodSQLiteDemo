@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImgViewFoodImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp" />
+
+    <TextView
+        android:id="@+id/TxtViewFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="183dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="66dp"
+        android:text="Food Name"/>
+
+    <TextView
+        android:id="@+id/TxtViewFoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/TxtViewFoodName"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:layout_alignRight="@+id/TxtViewFoodName"
+        android:text="Food Price"
+        />
+</RelativeLayout>
